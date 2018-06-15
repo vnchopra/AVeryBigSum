@@ -7,14 +7,14 @@ import java.util.regex.*;
 public class AVeryBigSum 
 {
 
-	static long aVeryBigSum(int n, long[] ar) 
-	{
-		long theresult = 0;
-		
-		AVeryBigSum theObj = new AVeryBigSum();
-		theresult = theObj.calculateSumOfValuesInLongArray(ar);
-		
-		return theresult;
+   static long aVeryBigSum(int n, long[] ar) 
+   {
+	long theresult = 0;
+
+	AVeryBigSum theObj = new AVeryBigSum();
+	theresult = theObj.calculateSumOfValuesInLongArray(ar);
+
+	return theresult;
     }
 
     public static void main(String[] args) 
